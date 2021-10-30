@@ -1,0 +1,47 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 10px;
+}
+header {
+  width: 100%;
+  background-color: red;
+  padding: 40px 0px;
+}
+
+.content {
+  display: flex;
+}
+.sidebar {
+  flex: 1;
+}
+aside {
+  background-color: blueviolet;
+  padding: 60px 0px;
+}
+nav {
+  background-color: pink;
+  padding: 100px 0px;
+}
+main {
+  background-color: aqua;
+  box-sizing: border-box;
+  flex: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  width: 100%;
+  padding: 20px 0px;
+  background-color: aliceblue;
+}
